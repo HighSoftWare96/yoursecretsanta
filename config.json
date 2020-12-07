@@ -1,0 +1,35 @@
+{
+  "sender": {
+    "name": "santa",
+    "email": "santa@github.com",
+    "signature": "Your fantastic Santa!",
+    "subject": "Who are going to make a present to?"
+  },
+  "recipients": [
+    {
+      "name": "test",
+      "email": "test@gmail.com"
+    },
+    {
+      "name": "test1",
+      "email": "test1@gmail.com"
+    },
+    {
+      "name": "test2",
+      "email": "test2@gmail.com"
+    },
+    {
+      "name": "test3",
+      "email": "test3@gmail.com"
+    }
+  ],
+  "smtp": {
+    "port": 587,
+    "host": "SMTP.office365.com",
+    "auth": {
+      "user": "test@outlook.com",
+      "pass": "**************"
+    },
+    "secure": false
+  }
+}
